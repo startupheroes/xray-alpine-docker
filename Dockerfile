@@ -1,7 +1,5 @@
 FROM alpine:3.6
 
-MAINTAINER Marian Zange <marian@crashpad.io>
-
 RUN apk add --no-cache libc6-compat curl unzip ca-certificates
 
 RUN mkdir workspace
