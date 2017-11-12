@@ -19,4 +19,4 @@ RUN apk del curl unzip
 
 ENTRYPOINT ["xray"]
 
-CMD ["--bind=0.0.0.0:2000", "--region=us-east-1"]
+CMD ["--bind=0.0.0.0:2000", "--region=eu-west-1"]
