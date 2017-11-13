@@ -15,6 +15,8 @@ WORKDIR /
 RUN rm -rf workspace
 RUN apk del curl unzip
 
+EXPOSE 2000/udp
+
 ENTRYPOINT ["xray"]
 
 CMD ["--bind=0.0.0.0:2000", "--region=eu-west-1"]
